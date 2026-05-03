@@ -22,7 +22,7 @@ export default function About(){
         khảo sát, xây dựng và nông nghiệp hiện đại.
       </p>
 
-      <img src="/images/about.png" alt="about" />
+      <img className="app-image" src="/images/about.png" alt="about" />
     </div>
   )
 }

@@ -8,10 +8,10 @@ export default function Base(){
 
       <h2>Thông số kỹ thuật</h2>
 
-      <table class="spec-table">
+      <table className="spec-table">
         <tbody>
 
-          <tr><th colspan="2">GNSS</th></tr>
+          <tr><th colSpan="2">GNSS</th></tr>
           <tr><td>Số kênh</td><td>400 kênh theo dõi với engine tìm kiếm chuyên dụng</td></tr>
           <tr><td>Tần số L1</td><td>
             GPS L1, Beidou B1I/B1C, Galileo E1, QZSS L1, GLONASS G1
@@ -39,15 +39,15 @@ export default function Base(){
             SBAS, AGPS, RTCM3.x, NMEA 0183 v4.00 / 4.10
           </td></tr>
 
-          <tr><th colspan="2">Nguồn điện</th></tr>
+          <tr><th colSpan="2">Nguồn điện</th></tr>
           <tr><td>Điện áp</td><td>3.0 – 3.6V (VBAT)</td></tr>
           <tr><td>Công suất tiêu thụ</td><td>Tối đa 50 mA @ 3.3V (không tính anten)</td></tr>
 
-          <tr><th colspan="2">Giao tiếp</th></tr>
+          <tr><th colSpan="2">Giao tiếp</th></tr>
           <tr><td>UART</td><td>2 cổng UART (1 cổng hỗ trợ chức năng download)</td></tr>
           <tr><td>I2C</td><td>1 cổng I2C</td></tr>
 
-          <tr><th colspan="2">Kích thước & môi trường</th></tr>
+          <tr><th colSpan="2">Kích thước & môi trường</th></tr>
           <tr><td>Kích thước</td><td>17 × 22 × 2.5 mm</td></tr>
           <tr><td>Nhiệt độ hoạt động</td><td>-40°C ~ +85°C</td></tr>
 

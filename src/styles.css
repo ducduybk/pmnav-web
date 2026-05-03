@@ -103,6 +103,14 @@ body {
   margin:24px auto;
 }
 
+.app-image {
+  display:block;
+  width:100%;
+  max-width:720px;
+  height:auto;
+  margin:24px auto 0;
+}
+
 .spec {
   margin-top:20px;
   border-collapse:collapse;

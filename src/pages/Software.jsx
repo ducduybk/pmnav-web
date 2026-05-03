@@ -29,7 +29,7 @@ export default function Software(){
         <li>Giao diện đơn giản, dễ sử dụng</li>
       </ul>
 
-      <img src="/images/app-intro1.png" alt="app" />
+      <img className="app-image" src="/images/app-intro1.png" alt="PMnav App" />
     </div>
   )
 }
