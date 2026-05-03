@@ -11,18 +11,20 @@ import About from './pages/About'
 
 export default function App(){
   return (
-    <>
+    <div className="app">
       <ScrollToTop />
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/products/rover" element={<Rover />} />
-        <Route path="/products/base" element={<Base />} />
-        <Route path="/software" element={<Software />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+      <main className="page-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/products/rover" element={<Rover />} />
+          <Route path="/products/base" element={<Base />} />
+          <Route path="/software" element={<Software />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </main>
       <Footer />
-    </>
+    </div>
   )
 }
