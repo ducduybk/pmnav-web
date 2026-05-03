@@ -1,0 +1,150 @@
+body {
+  margin:0;
+  font-family:Arial;
+  background:#f8fafc;
+  color:#0f172a;
+}
+
+.nav {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:5px;
+  background:#ffffff;
+  border-bottom:1px solid #e2e8f0;
+}
+
+.nav > div:last-child {
+  display:flex;
+  align-items:center;
+  gap:15px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  margin-right:24px;
+}
+
+.logo img {
+  display:block;
+  max-height:50px;
+  width:auto;
+}
+
+.nav a {
+  color:#0f172a;
+  font-size:18px;
+  font-weight:400;
+  text-decoration:none;
+  white-space:nowrap;
+}
+
+@media (max-width: 640px) {
+  .nav {
+    align-items:flex-start;
+    gap:12px;
+    padding:10px;
+  }
+
+  .nav > div:last-child {
+    margin-right:0;
+    gap:10px 14px;
+  }
+
+  .nav a {
+    font-size:16px;
+  }
+}
+
+.hero {
+  height: 70vh;
+  background-color: #fbcc0a;
+
+  background-image: url('/images/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.section {
+  padding:40px 20px;
+}
+
+.grid {
+  display:flex;
+  gap:20px;
+}
+
+.card {
+  background:#ffffff;
+  padding:20px;
+  border-radius:10px;
+  border:1px solid #e2e8f0;
+  box-shadow:0 8px 24px rgba(15, 23, 42, 0.08);
+  flex:1;
+}
+
+.card a {
+  color:#2563eb;
+  font-weight:bold;
+}
+
+.card-image {
+  display:block;
+  width:120px;
+  height:90px;
+  object-fit:contain;
+  margin:0 0 12px;
+}
+
+.product-image {
+  display:block;
+  width:100%;
+  max-width:520px;
+  height:auto;
+  margin:24px auto;
+}
+
+.spec {
+  margin-top:20px;
+  border-collapse:collapse;
+  background:#ffffff;
+}
+
+.spec td {
+  border:1px solid #cbd5e1;
+  padding:10px;
+}
+
+.footer {
+  padding:20px;
+  text-align:center;
+  background:#ffffff;
+  border-top:1px solid #e2e8f0;
+  color:#475569;
+}
+
+/* Rover table */
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background: white;
+  color: #0f172a;
+}
+
+.spec-table th {
+  text-align: left;
+  background: #f1f5f9;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.spec-table td {
+  padding: 10px;
+  border-bottom: 1px solid #e2e8f0;
+  vertical-align: top;
+}
+
+.spec-table td:first-child {
+  width: 30%;
+  font-weight: 500;
+}
