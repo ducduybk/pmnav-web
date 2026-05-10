@@ -11,7 +11,6 @@ export default function Rover(){
       <table className="spec-table">
         <tbody>
           <tr><th colSpan="2">Đặc tính chip</th></tr>
-          <tr><td>Chip</td><td>WT-62-RK module</td></tr>
           <tr><td>Tần số</td><td>
             BDS: B1I/B1C/B2a<br/>
             GPS/QZSS: L1C/A & L5<br/>
